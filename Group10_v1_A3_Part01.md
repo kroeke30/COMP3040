@@ -42,4 +42,8 @@ end
 ```
 
 # Sample request with sample response
-
+```
+{
+   "species" : "Green-winged teal",
+}
+```
