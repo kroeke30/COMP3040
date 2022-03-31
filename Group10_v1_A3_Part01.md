@@ -10,6 +10,11 @@ least 3 parameters. If you have two endpoints, include at least 2 parameters. If
 endpoints, include at least 1 parameter.
 - Note: If you want to keep it simple, these endpoints could all be GET methods
 
+ - getRandomBird()
+ - browseBirdType(birdType)
+ - getFlyingBird(birdType)
+ - getStandingBird(birdType)
+
 # Description of resources - formatted as JSON
 - one or two resources
 
