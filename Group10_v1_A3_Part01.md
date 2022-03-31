@@ -1,7 +1,5 @@
 # API description
 
-Our API has a list of birds that can be found in Manitoba.
-
 Our API has pictures of various birds that can live and breed in Manitoba
 
 # List of endpoints with parameters (see below for requirements)
@@ -11,12 +9,12 @@ endpoints, include at least 1 parameter.
 - Note: If you want to keep it simple, these endpoints could all be GET methods
 
  - getRandomBird()
- - browseBirdType(birdType)
- - getFlyingBird(birdType)
- - getStandingBird(birdType)
+ - getBirdByBreed(breed)
+ - getFlyingBird()
 
 # Description of resources - formatted as JSON
 - one or two resources
+- brief description overview (to managers)
 
 ```
 class BirdResource
