@@ -3,14 +3,12 @@
 Our API has pictures of various birds that can live and breed in Manitoba
 
 # List of endpoints with parameters (see below for requirements)
-- Endpoints and Parameters: Describe 1-3 endpoints. If you have one endpoint, include at
-least 3 parameters. If you have two endpoints, include at least 2 parameters. If you have 3
-endpoints, include at least 1 parameter.
-- Note: If you want to keep it simple, these endpoints could all be GET methods
-
- - getRandomBird()
- - getBirdBySpecies(species)
- - getFlyingBird()
+### getRandomBird()
+ - Returns a random picture of a bird that can be found in Manitoba.
+### getBirdBySpecies(species)
+ - Returns a random picture of a bird belong to the specified species that can be found in Manitoba.
+### getFlyingBird()
+ - Returns a random picture of a flying bird that can be found in Manitoba.
 
 # Description of resources - formatted as JSON
 - one or two resources
