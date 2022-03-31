@@ -13,5 +13,32 @@ endpoints, include at least 1 parameter.
 # Description of resources - formatted as JSON
 - one or two resources
 
+```
+class BirdResource
+
+  attributes :name, :breed
+
+  # name setter
+  def name=(new_name)
+    @model.name = new_name
+  end
+  
+  # breed setter
+  def breed=(new_breed)
+    @model.breed = new_breed
+  end
+
+  # breed getter
+  def breed
+    @model.breed.to_s
+  end
+  
+  # name getter
+  def name
+    @model.name.to_s
+  end
+end
+```
+
 # Sample request with sample response
 
