@@ -9,7 +9,7 @@ endpoints, include at least 1 parameter.
 - Note: If you want to keep it simple, these endpoints could all be GET methods
 
  - getRandomBird()
- - getBirdByBreed(breed)
+ - getBirdBySpecies(species)
  - getFlyingBird()
 
 # Description of resources - formatted as JSON
@@ -19,21 +19,21 @@ endpoints, include at least 1 parameter.
 ```
 class BirdResource
 
-  attributes :name, :breed
+  attributes :name, :species
 
   # name setter
   def name=(new_name)
     @model.name = new_name
   end
   
-  # breed setter
-  def breed=(new_breed)
-    @model.breed = new_breed
+  # species setter
+  def species=(new_species)
+    @model.species = new_species
   end
 
-  # breed getter
-  def breed
-    @model.breed.to_s
+  # species getter
+  def species
+    @model.species.to_s
   end
   
   # name getter
