@@ -11,22 +11,22 @@ Our API has pictures of various birds that can live and breed in Manitoba
  - Returns a random picture of a flying bird that can be found in Manitoba.
 
 # Description of resources - formatted as JSON
-- one or two resources
-- brief description overview (to managers)
+
+The API has a Bird resource that contains the species and category attributes for each bird picture. The species attribute contains the name of the bird species shown in the picture, and the category attribute contains the name of the category of the bird picture. The different categories include pictures of flying birds, pictures of standing birds, and an "other" category for pictures of birds doing other things.
 
 ```
 class BirdResource
 
-  attributes :name, :species
+  attributes :species, :category
 
-  # name setter
-  def name=(new_name)
-    @model.name = new_name
-  end
-  
   # species setter
   def species=(new_species)
     @model.species = new_species
+  end
+  
+  # category setter
+  def category=(new_category)
+    @model.category = new_category
   end
 
   # species getter
@@ -34,9 +34,9 @@ class BirdResource
     @model.species.to_s
   end
   
-  # name getter
-  def name
-    @model.name.to_s
+  # category getter
+  def category
+    @model.category.to_s
   end
 end
 ```
