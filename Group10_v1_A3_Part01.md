@@ -46,6 +46,7 @@ end
 ```
 {
    "species" : "Green-winged teal"
+   "category": "other"
 }
 ```
 ### Sample response
