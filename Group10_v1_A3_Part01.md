@@ -1,6 +1,6 @@
 # API description
 
-Our API has pictures of various birds that can live and breed in Manitoba
+Our API has pictures of various birds that can live and breed in Manitoba. This API will be useful for people who enjoy looking at pictures of birds, and for developers who want to incorporate pictures of birds into their applications.
 
 # List of endpoints with parameters
 ### getRandomBird()
