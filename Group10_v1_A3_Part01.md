@@ -6,7 +6,7 @@ Our API has pictures of various birds that can live and breed in Manitoba
 ### getRandomBird()
  - Returns a random picture of a bird that can be found in Manitoba.
 ### getBirdBySpecies(species)
- - Returns a random picture of a bird belong to the specified species that can be found in Manitoba.
+ - Returns a random picture of a bird belonging to the specified species that can be found in Manitoba.
 ### getFlyingBird()
  - Returns a random picture of a flying bird that can be found in Manitoba.
 
