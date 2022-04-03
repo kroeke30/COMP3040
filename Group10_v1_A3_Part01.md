@@ -45,13 +45,13 @@ end
 ### Sample request
 ```
 {
-   "species" : "Green-winged teal"
-   "category": "other"
+   "species" : "Canada Goose"
+   "category": "Flying"
 }
 ```
 ### Sample response
 ```
 {
-   "image" : "https://upload.wikimedia.org/wikipedia/commons/0/07/Green-winged_Teal%2C_Port_Aransas%2C_Texas.jpg"
+   "image" : "https://upload.wikimedia.org/wikipedia/commons/4/4e/Canada-Goose-Szmurlo.jpg"
 }
 ```
