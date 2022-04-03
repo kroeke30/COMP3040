@@ -43,6 +43,8 @@ end
 
 # Sample request with sample response
 ### Sample request
+Here is a sample request for a picture of a flying Canada Goose.
+
 ```
 {
    "species" : "Canada Goose"
@@ -50,6 +52,7 @@ end
 }
 ```
 ### Sample response
+The API responds with an image of a flying Canada Goose.
 ```
 {
    "image" : "https://upload.wikimedia.org/wikipedia/commons/4/4e/Canada-Goose-Szmurlo.jpg"
