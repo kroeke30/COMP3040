@@ -42,8 +42,15 @@ end
 ```
 
 # Sample request with sample response
+### Sample request
 ```
 {
-   "species" : "Green-winged teal",
+   "species" : "Green-winged teal"
+}
+```
+### Sample response
+```
+{
+   "image" : "https://upload.wikimedia.org/wikipedia/commons/0/07/Green-winged_Teal%2C_Port_Aransas%2C_Texas.jpg"
 }
 ```
