@@ -2,7 +2,7 @@
 
 Our API has pictures of various birds that can live and breed in Manitoba
 
-# List of endpoints with parameters (see below for requirements)
+# List of endpoints with parameters
 ### getRandomBird()
  - Returns a random picture of a bird that can be found in Manitoba.
 ### getBirdBySpecies(species)
@@ -10,7 +10,7 @@ Our API has pictures of various birds that can live and breed in Manitoba
 ### getFlyingBird()
  - Returns a random picture of a flying bird that can be found in Manitoba.
 
-# Description of resources - formatted as JSON
+# Description of resources
 
 The API has a Bird resource that contains the species and category attributes for each bird picture. The species attribute contains the name of the bird species shown in the picture, and the category attribute contains the name of the category of the bird picture. The different categories include pictures of flying birds, pictures of standing birds, and an "other" category for pictures of birds doing other things.
 
