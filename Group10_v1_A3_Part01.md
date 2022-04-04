@@ -5,21 +5,23 @@ Our API has pictures of various birds that can be found living in Manitoba. This
 This API describes a list of birds with their pictures 
 
 # List of endpoints with parameters
-### getRandomBird()
- - Returns a random picture of a bird that can be found in Manitoba.
+### getRandomBird(location)
+ - Returns a random picture of a bird that can be found in a specific location of Manitoba.
 ### getBirdBySpecies(species)
  - Returns a random picture of a bird belonging to the specified species that can be found in Manitoba.
-### getFlyingBird()
- - Returns a random picture of a flying bird that can be found in Manitoba.
-
+### getFlyingBird(species)
+ - Returns a random picture of a specified flying bird that can be found in Manitoba.
+### parameters
+ - location (String): the name of city or representative geographic location in Manitoba.
+ - species (String): the name of the species of birds. 
 # Description of resources
 
-The API has a Bird resource that contains the species and category attributes for each bird picture. The species attribute contains the name of the bird species shown in the picture, and the category attribute contains the name of the category of the bird picture. The different categories include pictures of flying birds, pictures of standing birds, and an "other" category for pictures of birds doing other things.
+The API has a Bird resource that contains the species, category and location attributes for each bird picture. The species attribute contains the name of the bird species shown in the picture, and the category attribute contains the name of the category of the bird picture. The different categories include pictures of flying birds, pictures of standing birds, and an "other" category for pictures of birds doing other things. The location attribute contains the name of the location where the bird species is most distributed.
 
 ```
 class BirdResource
 
-  attributes :species, :category
+  attributes :species, :category, :location
 
   # species setter
   def species=(new_species)
@@ -30,7 +32,12 @@ class BirdResource
   def category=(new_category)
     @model.category = new_category
   end
-
+  
+  # location setter
+  def location=(new_location)
+    @model.location = new_location
+  end
+  
   # species getter
   def species
     @model.species.to_s
@@ -39,6 +46,11 @@ class BirdResource
   # category getter
   def category
     @model.category.to_s
+  end
+  
+  # location getter
+  def location
+    @model.location.to_s
   end
 end
 ```
