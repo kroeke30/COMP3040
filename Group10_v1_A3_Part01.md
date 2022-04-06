@@ -72,3 +72,5 @@ The API responds with an image of a flying Canada Goose.
    "image" : "https://upload.wikimedia.org/wikipedia/commons/4/4e/Canada-Goose-Szmurlo.jpg"
 }
 ```
+
+
